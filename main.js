@@ -1,35 +1,30 @@
 /* 
 
-WELCOME ABOARD;
+AHOY THERE! WELCOME ABOARD;
 
-THEY WANT TO TAKE ON SUPPLIES
-Our function takes in an array of 'supplies'
+WE WANT TO TAKE ON SUPPLIES!
+Your function takes in an array of 'supplies'.
 
-THE BOAT CAN ONLY HANDLE A CERTAIN WEIGHT (INTEGER)
+THE BOAT CAN ONLY HANDLE A CERTAIN WEIGHT!
+The amount of items * 10.
 
-Random array between index 0-9, array is filled with random numbers 1-99;
-[1, 5, 75, 43, 14, 90]
+YOUR SUPPLIES!
+Will be an array between index 0-9 and filled with random numbers 1-99.
 
-Boat can take weight of 60;
-[1, 43, 14] = 58 would be correct
+Returned 'supplies' should be sorted from lowest to highest value.
 
-THEY NEED TO GET RID OF SOME SUPPLIES
+EXAMPLE!
+Your supplies = [1, 5, 75, 43, 14, 90] would mean the boat can take weight of 60 (6 items * 10).
 
-NOT ALL SUPPLIES WEIGH THE SAME
-Function returns boolean true if the weight (int) is correct
+Returning - [1, 14, 43] would be correct, as this is the most amount of items without exceeding weight limit.
+
 */
 
-//👉 Write the function your CodeWarriors will start with below here:
-let array = [[1, 5, 75, 43, 14, 90], [58]]
-let array2 = [[7, 90, 28, 4, 19, 81, 42, 15], [80]]
+let array = [1, 5, 75, 43, 14, 90]
 
 export default function sailedTheSeas(array){
-    array.sort((a, b) => a - b);
-    let arr1 = array.slice(2, 4)
-    let arr2 = array.slice(0, 1)
-    let newArray = arr1.concat(arr2);
-    let finalArray = newArray.reduce((a, b) => a + b);
-    return finalArray;
+    
+    // your code here
+
 }
-console.log(sailedTheSeas(array));
 
