@@ -24,10 +24,3 @@ describe(`arrays to test sailedTheSeas func`, () => {
         expect(actual).toBe(expected);
     });
 });
-
-/*-- SEMI-WORKING FUNCTION --*/
-/*--     array.sort((a, b) => a - b);
-    let arr1 = array.slice(0, 1)
-    let arr2 = array.slice(2, 4)
-    let newArray = arr1.concat(arr2);
-    return newArray; --*/
